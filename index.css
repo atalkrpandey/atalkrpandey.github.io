@@ -430,7 +430,8 @@ header .follow a:hover{
         font-size: 1.5rem;
         color:#666;
     }
-    
+
+   
     .project .box-container{
         display: flex;
         flex-wrap: wrap;
