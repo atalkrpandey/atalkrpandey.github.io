@@ -210,9 +210,10 @@ header .follow a:hover{
 .about .row-1 .content .btn{
     background-color: #167df3;
     padding: 1rem;
+  
     margin-left: 1rem;
     font-size: 200%;
-   
+    
     color: #e9e2e3;
     border-radius: 10px;
     
@@ -559,7 +560,7 @@ header .follow a:hover{
     }
     
     .contact .row form .btn{
-        margin-top: 0;
+        
         margin-bottom: 1.5rem;
     }
     .my2{
@@ -995,3 +996,5 @@ header .follow a:hover{
     height: 30px;
     padding: 2px;
   }
+
+  
