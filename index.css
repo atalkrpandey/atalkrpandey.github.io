@@ -376,13 +376,13 @@ header .follow a:hover{
       /* .experience {
         margin-left: 2rem;
       }  */
-    .experience .box-container{
+    .education .box-container{
         display: grid;
         flex-wrap: wrap;
     
     }
     
-    .experience .box-container .box{
+    .education .box-container .box{
         position: relative;
         flex:1 1 33rem;
         border-left: .2rem solid var(--main-color);
@@ -391,7 +391,7 @@ header .follow a:hover{
         padding-bottom: 2rem;    
     }
     
-    .experience .box-container .box::before{
+    .education .box-container .box::before{
         content: '';
         position: absolute;
         top:0; left:-1rem;
@@ -401,19 +401,19 @@ header .follow a:hover{
         background:var(--main-color);
     }
 
-    .experience .heading{
+    .education .heading{
         margin-top: 10rem;
         font-size: 4rem;
         margin-left: 2%;
     }
     
-    .experience .box-container .box .content{
+    .education .box-container .box .content{
         background:#fff;
         padding:1.5rem;
         box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
         border-radius: .5rem;
     }
-    .experience .box-container .box .content span{
+    .education .box-container .box .content span{
         color:#fff;
         font-size: 1.7rem;
         background:var(--main-color);
@@ -421,13 +421,18 @@ header .follow a:hover{
         padding:.4rem 1rem;
     }
     
-    .experience .box-container .box .content h3{
+    .education .box-container .box .content h3{
         font-size: 2.5rem;
         padding:.5rem 0;
         color:#111;
     }
     
-    .experience .box-container .box .content p{
+    .education .box-container .box .content p{
+        font-size: 1.5rem;
+        color:#666;
+    }
+
+    .education p{
         font-size: 1.5rem;
         color:#666;
     }
@@ -786,7 +791,7 @@ header .follow a:hover{
         width:100%;
     }
 
-    .experience .box-container .box{
+    .education .box-container .box{
         padding-right: 0;
     }
 
